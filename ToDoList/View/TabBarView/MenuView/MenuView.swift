@@ -36,7 +36,7 @@ struct MenuView: View {
                 Button(action: {
                     showAlert.show.toggle()
                 }) {
-                    Text("+")
+                    Text("++")
                         .font(.custom(FontsManeger.Roboto.thin, size: 24))
                         .foregroundColor(.white)
                 }
